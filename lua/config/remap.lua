@@ -19,3 +19,7 @@ vim.keymap.set("v", ">", ">gv")
 
 -- lsp
 vim.keymap.set('n', 'gd', vim.lsp.buf.definition, { desc = "Go to definition"})
+
+vim.keymap.set("n", "<leader>ih", function()
+    vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled())
+end, { desc = "Toggle inlay hints" })
