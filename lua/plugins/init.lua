@@ -6,9 +6,6 @@ vim.pack.add({
 
     "https://github.com/nvim-treesitter/nvim-treesitter",
 
-    "https://github.com/saghen/blink.cmp",
-    "https://github.com/saghen/blink.lib",
-
     "https://github.com/windwp/nvim-autopairs",
 
     "https://github.com/kylechui/nvim-surround",
@@ -24,13 +21,8 @@ require("lualine").setup()
 require("nvim-autopairs").setup()
 require("fidget").setup()
 
-local cmp = require("blink.cmp")
-cmp.build():pwait()
-cmp.setup({
-    keymap = { preset = "enter" },
-})
-
 require("plugins.lsp")
 require("plugins.mini")
+require("plugins.blink")
 
 vim.cmd.colorscheme("tokyonight-night")
