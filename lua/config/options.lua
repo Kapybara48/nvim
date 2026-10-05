@@ -10,6 +10,7 @@ vim.opt.smartindent = true
 
 vim.opt.scrolloff = 8
 vim.opt.sidescrolloff = 8
+vim.opt.wrap = false
 
 vim.opt.ignorecase = true
 vim.opt.smartcase = true

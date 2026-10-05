@@ -8,6 +8,10 @@
       "rev": "fd9a48ebbe6ec30d5dfcc5b42c243941ccdca1aa",
       "src": "https://github.com/saghen/blink.lib"
     },
+    "copilot.vim": {
+      "rev": "a12fd5672110c8aa7e3c8419e28c96943ca179be",
+      "src": "https://github.com/github/copilot.vim"
+    },
     "fidget.nvim": {
       "rev": "9e0201673e08e997e7cf52afca5565c70bd117f3",
       "src": "https://github.com/j-hui/fidget.nvim"
@@ -27,6 +31,10 @@
     "mini.nvim": {
       "rev": "561751e839b99a4baca36b9d963166b66d2536a6",
       "src": "https://github.com/nvim-mini/mini.nvim"
+    },
+    "mini.surround": {
+      "rev": "33a2ebe5df8eb4751828fcba133e18ed0fbbdfab",
+      "src": "https://github.com/nvim-mini/mini.surround"
     },
     "mush.nvim": {
       "rev": "def383666f025157cdad93c12e869b7e0df684e0",
@@ -59,6 +67,10 @@
     "plenary.nvim": {
       "rev": "74b06c6c75e4eeb3108ec01852001636d85a932b",
       "src": "https://github.com/nvim-lua/plenary.nvim"
+    },
+    "sqlua.nvim": {
+      "rev": "a49a28dafa5e240e90adbc60881fbd6f066f79f4",
+      "src": "https://github.com/Xemptuous/sqlua.nvim"
     },
     "telescope-fzf-native.nvim": {
       "rev": "b25b749b9db64d375d782094e2b9dce53ad53a40",

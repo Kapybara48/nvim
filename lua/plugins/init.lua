@@ -8,8 +8,6 @@ vim.pack.add({
 
     "https://github.com/windwp/nvim-autopairs",
 
-    "https://github.com/kylechui/nvim-surround",
-
     "https://github.com/j-hui/fidget.nvim",
 
     -- which-key
