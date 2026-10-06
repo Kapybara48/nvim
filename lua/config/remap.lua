@@ -23,3 +23,6 @@ vim.keymap.set('n', 'gd', vim.lsp.buf.definition, { desc = "Go to definition"})
 vim.keymap.set("n", "<leader>ih", function()
     vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled())
 end, { desc = "Toggle inlay hints" })
+
+vim.keymap.set("n", "<leader>t", "<cmd>botright 10split | terminal<CR>")
+vim.keymap.set("t", "<Esc>", [[<C-\><C-n>]])

@@ -12,6 +12,8 @@ vim.pack.add({
 
     'https://github.com/stevearc/oil.nvim',
 
+    "https://github.com/windwp/nvim-ts-autotag",
+
     -- which-key
     -- flash
     -- nvim-colorizer
@@ -23,6 +25,7 @@ require("fidget").setup()
 require("oil").setup({
     default_file_explorer = true,
 })
+require("nvim-ts-autotag").setup()
 
 require("plugins.lsp")
 require("plugins.mini")

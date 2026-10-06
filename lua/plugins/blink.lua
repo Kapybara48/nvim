@@ -13,6 +13,9 @@ cmp.setup({
         ["<C-j>"] = { "select_next", "fallback" },
         ["<C-k>"] = { "select_prev", "fallback" },
     },
+    sources = {
+        default = { "lsp", "path", "buffer" },
+    },
     signature = {
         enabled = true,
     },
