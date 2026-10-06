@@ -10,6 +10,8 @@ vim.pack.add({
 
     "https://github.com/j-hui/fidget.nvim",
 
+    'https://github.com/stevearc/oil.nvim',
+
     -- which-key
     -- flash
     -- nvim-colorizer
@@ -18,6 +20,9 @@ vim.pack.add({
 require("lualine").setup()
 require("nvim-autopairs").setup()
 require("fidget").setup()
+require("oil").setup({
+    default_file_explorer = true,
+})
 
 require("plugins.lsp")
 require("plugins.mini")
