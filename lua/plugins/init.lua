@@ -1,5 +1,13 @@
 vim.pack.add({
+
     "https://github.com/folke/tokyonight.nvim",
+
+    "https://github.com/nvim-mini/mini.pick",
+    "https://github.com/nvim-mini/mini.surround",
+
+    "https://github.com/saghen/blink.cmp",
+    "https://github.com/saghen/blink.lib",
+    "https://github.com/rafamadriz/friendly-snippets",
 
     "https://github.com/nvim-lualine/lualine.nvim",
     "https://github.com/nvim-tree/nvim-web-devicons",

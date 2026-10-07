@@ -1,8 +1,3 @@
-vim.pack.add({
-    "https://github.com/nvim-mini/mini.nvim",
-    "https://github.com/nvim-mini/mini.surround",
-})
-
 require("mini.pick").setup({
     mappings = {
         move_down = "<C-j>",
