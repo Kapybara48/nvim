@@ -22,6 +22,7 @@ vim.pack.add({
 
     "https://github.com/windwp/nvim-ts-autotag",
 
+    -- schemastore
     -- which-key
     -- flash
     -- nvim-colorizer
